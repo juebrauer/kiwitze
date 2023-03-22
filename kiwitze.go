@@ -20,5 +20,5 @@ var witze = []string{
 
 func BringMichZumLachen() {
 	// Warnung! KI-Humor ist etwas seltsam ...
-	fmt.Println(rand.Intn(len(witze)))
+	fmt.Println(witze[rand.Intn(len(witze))])
 }
